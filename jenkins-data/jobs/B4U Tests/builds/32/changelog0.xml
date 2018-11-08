@@ -1,0 +1,24 @@
+commit acb7ea2d092e0e8dbd036069077491a1c7d5ccde
+tree 411b1937c1931fd375e0cc9276dc6c1398c0c796
+parent ca75ef0ec7bda75642f995046ecf042ad6305f41
+author NEUSTA\BEA <andreas.berrou@hec.de> 2018-11-08 13:13:03 +0100
+committer NEUSTA\BEA <andreas.berrou@hec.de> 2018-11-08 13:13:03 +0100
+
+    Added Proxy Settings for Maven in Pipeline
+
+
+
+:100644 100644 924635007d5443e7920e5f66f3bfccc16116c88c f4ef7b47bfc522c94019a582430190598d5773a3 M	.idea/workspace.xml
+:100644 100644 85e057a1632fd698d92ccc629415ac7079dc736f 9a7e8740b1c2383e382e149de18281b4edcffb7d M	Jenkinsfile
+commit ca75ef0ec7bda75642f995046ecf042ad6305f41
+tree 1b8ff0b43b6c546bbf3c109d9f2c1af2d8608cf3
+parent a65f277399221deea8b964ce8021cbc80c79d38a
+author NEUSTA\BEA <andreas.berrou@hec.de> 2018-11-08 13:11:32 +0100
+committer NEUSTA\BEA <andreas.berrou@hec.de> 2018-11-08 13:11:32 +0100
+
+    Added Proxy Settings for Maven in Pipeline
+
+
+
+:100644 100644 b01071da24541a0cc9d06f6741b047bdb69f799d 924635007d5443e7920e5f66f3bfccc16116c88c M	.idea/workspace.xml
+:100644 100644 f564c897d8634d99b122ab86a72a8e6856cf19ce 85e057a1632fd698d92ccc629415ac7079dc736f M	Jenkinsfile

@@ -1,0 +1,12 @@
+commit 1d544896a0a9c4eac884ac38f33b631cea6227ff
+tree 6a67f60d4a0f5a15822c2c88e79758b04e1f0258
+parent 8d0421c14c94be00ca044c3bee124187d8bcd94c
+author NEUSTA\BEA <andreas.berrou@hec.de> 2018-11-08 12:40:03 +0100
+committer NEUSTA\BEA <andreas.berrou@hec.de> 2018-11-08 12:40:03 +0100
+
+    Added Proxy Settings for Maven in Pipeline
+
+
+
+:100644 100644 40e6241674b7f328aaec9dc661a62bb04e17fbfc 57affe21dc583378dc90f90c988be81772f22ab8 M	.idea/workspace.xml
+:100644 100644 2a36a5e608d0fe72100e3c47aca8c87de717a5c5 0a5d8acee513352bec6a23a3e5e9e8f32fe6f8a9 M	Jenkinsfile

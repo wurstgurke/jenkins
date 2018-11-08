@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.22">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.60">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.60">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/master</string>
+            <string>GIT_COMMIT=b372c697b0b1306de2baeb1240f98c197007aacd</string>
+            <string>GIT_PREVIOUS_COMMIT=668bf40a0e8aed1e5f5c3d59f60182df5d879e54</string>
+            <string>GIT_URL=http://github.com/wurstgurke/testinglab.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.31">
+      <startTime>1541675318765</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>
