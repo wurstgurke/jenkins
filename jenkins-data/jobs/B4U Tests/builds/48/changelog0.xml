@@ -1,0 +1,12 @@
+commit 44622a7924c33ffcd254707618500d5665b5fbf4
+tree c3cd8e3707ae40296ecacbd975df1a16f9ba10a8
+parent 41026905bef2df59c16f0789423a7bd8ebd986eb
+author Berrou, Andreas (GfK External) <Andreas.Berrou@gfk.com> 2018-11-09 15:58:20 +0100
+committer Berrou, Andreas (GfK External) <Andreas.Berrou@gfk.com> 2018-11-09 15:58:20 +0100
+
+    Changed Maven .m2 volume
+
+
+
+:100644 100644 607653cfd18c54b15a14a0e042b18fdb0875c8b0 2f44d375a8ada4f6c3acfc4ed972c1a682415206 M	.idea/workspace.xml
+:100644 100644 961a3c4a82270f50978d532a3a8f227dbcf8b8ac 736c5bab6404797fbad4899b755b153c3aa9d035 M	Jenkinsfile

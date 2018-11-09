@@ -1,7 +1,0 @@
-<?xml version='1.1' encoding='UTF-8'?>
-<proxy>
-  <name>http-proxy.intern.neusta.de</name>
-  <port>3128</port>
-  <secretPassword>{AQAAABAAAAAQEJb/j6P17tewhoj2Q50pY86Q0LIKgs5wN3w+zjrpjT4=}</secretPassword>
-  <testUrl>http://www.heise.de</testUrl>
-</proxy>
