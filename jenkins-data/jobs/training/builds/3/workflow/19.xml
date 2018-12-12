@@ -1,0 +1,44 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.22">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.60">
+    <parentIds>
+      <string>18</string>
+    </parentIds>
+    <id>19</id>
+    <descriptorId>hudson.plugins.emailext.EmailExtStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.60">
+      <arguments>
+        <entry>
+          <string>from</string>
+          <string>andreas@berrou.de</string>
+        </entry>
+        <entry>
+          <string>attachmentsPattern</string>
+          <string>./cucumber/build/html/cucumber-html-reports/overview-features.html</string>
+        </entry>
+        <entry>
+          <string>to</string>
+          <string>andreas@berrou.de</string>
+        </entry>
+        <entry>
+          <string>body</string>
+          <string>
+                              &lt;p&gt;There are Tests failing!&lt;/p&gt;
+                              &lt;p&gt;Check reports and console output at &amp;QUOT;&lt;a href=&apos;$BUILD_URL&apos;&gt;$JOB_NAME [$BUILD_NUMBER]&lt;/a&gt;&amp;QUOT;&lt;/p&gt;
+                              </string>
+        </entry>
+        <entry>
+          <string>subject</string>
+          <string>test</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.32">
+      <startTime>1544625549889</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

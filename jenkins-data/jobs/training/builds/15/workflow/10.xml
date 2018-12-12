@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.22">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.60">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.60">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/master</string>
+            <string>GIT_COMMIT=2e1121df7115163c2e0ff562d9a6d3d1e1b8caa8</string>
+            <string>GIT_PREVIOUS_COMMIT=be43c89d1ab215e1a505d18ee75c079571323214</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=be43c89d1ab215e1a505d18ee75c079571323214</string>
+            <string>GIT_URL=https://github.com/wurstgurke/training.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.32">
+      <startTime>1544628559912</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

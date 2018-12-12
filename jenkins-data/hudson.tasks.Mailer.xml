@@ -1,7 +1,7 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.22">
   <smtpAuthUsername>andreas@berrou.de</smtpAuthUsername>
-  <smtpAuthPassword>{AQAAABAAAAAQadFUgAhQ7fL45c+pAj3jb1UsNZ6sQbnOlNmp5413zCs=}</smtpAuthPassword>
+  <smtpAuthPassword>{AQAAABAAAAAQucLErrod0iui1ID0J+5F+09q0qAGd5SHv/1wJTrrTJA=}</smtpAuthPassword>
   <replyToAddress>andreas.berrou@hec.de</replyToAddress>
   <smtpHost>smtp.strato.de</smtpHost>
   <useSsl>true</useSsl>

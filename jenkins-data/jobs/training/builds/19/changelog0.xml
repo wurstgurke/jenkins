@@ -1,0 +1,12 @@
+commit 33f26b12e3e00eaec1476379e5957ceab46ebc6c
+tree 0837a7778ff3c8130ad6d31a4d76a2e30bd1f021
+parent a08d698f0a2972e458dd245a550d81466e7943fa
+author Andreas B <andreas@berrou.de> 2018-12-12 16:52:39 +0100
+committer Andreas B <andreas@berrou.de> 2018-12-12 16:52:39 +0100
+
+    Changed Pipeline
+
+
+
+:100644 100644 78d5fb4e63b86a9f646f8de0c86252e1334094fd f47585eadcf22843a90dc83a39c8acdf00c05f92 M	.idea/workspace.xml
+:100644 100644 b0c0438235751a67e0cfac745b8786a0c096a419 f262fe93ffb1f22f3cee13367f6706eaea7e8f54 M	Jenkinsfile

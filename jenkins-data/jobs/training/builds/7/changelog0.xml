@@ -1,0 +1,22 @@
+commit cb5ff636f4a088c2e130998c14ba283eb8947630
+tree c8c28a9d20d41c5a951e4c3218d4fb46adefab7b
+parent 4ccc248ba3bb5d2e746a3776755890a00872a2ff
+author Andreas B <andreas@berrou.de> 2018-12-12 15:44:37 +0100
+committer Andreas B <andreas@berrou.de> 2018-12-12 15:44:37 +0100
+
+    Added Pipeline
+
+
+
+:100644 100644 e7785da3d2763c7a5103595c5ce92defdcdbfeb2 5611abb5f4decf7148eb52f8bafbf1895b1fab65 M	Jenkinsfile
+commit 4ccc248ba3bb5d2e746a3776755890a00872a2ff
+tree 43a01681d4fddd7a464940a99bb2fbd9515e9d86
+parent cb69d47fb667f3fcb65710893072a3366f356323
+author Andreas B <andreas@berrou.de> 2018-12-12 15:43:33 +0100
+committer Andreas B <andreas@berrou.de> 2018-12-12 15:43:33 +0100
+
+    Added Pipeline
+
+
+
+:100644 100644 fcbfe6c0cdde4153991b822d2d4eb50bc8926acb e7785da3d2763c7a5103595c5ce92defdcdbfeb2 M	Jenkinsfile

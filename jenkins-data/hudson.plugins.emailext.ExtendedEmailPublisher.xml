@@ -1,7 +1,10 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.63">
   <mailAccount>
-    <useSsl>false</useSsl>
+    <smtpHost>smtp.strato.de</smtpHost>
+    <smtpUsername>andreas@berrou.de</smtpUsername>
+    <smtpPassword>{AQAAABAAAAAQaC9XlK889tGG0Ig5EB/bJQvP6Jn6q+45S4Ha4U7kM7g=}</smtpPassword>
+    <useSsl>true</useSsl>
   </mailAccount>
   <addAccounts/>
   <charset>UTF-8</charset>

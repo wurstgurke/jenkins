@@ -1,0 +1,11 @@
+commit 71ad5d0e6ff8787b24de44cbdb1d611676375241
+tree 6669811a254acfccb210bbb094100b17fa43f168
+parent eaa2d310ccdb8c1c4eab9e85183e415e5aacb6ce
+author Andreas B <andreas@berrou.de> 2018-12-12 16:39:30 +0100
+committer Andreas B <andreas@berrou.de> 2018-12-12 16:39:30 +0100
+
+    Added Pipeline
+
+
+
+:100644 100644 cacb30374b5a92d8af1cb2bd8b8934968dd2e03a fb805dab7de74b33bc0edbc66d3a5029d961da14 M	Jenkinsfile

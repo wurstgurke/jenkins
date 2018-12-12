@@ -1,0 +1,13 @@
+commit 450e5397ab2e76c5c7c93d6e4f011eb4c78de2a4
+tree 306fbbe7aff71482dcdebe4e4ef2e5aa257eeb56
+parent d0f06c3de5635546db2b9786b4bd701e2b22fdd2
+author Andreas B <andreas@berrou.de> 2018-12-12 16:17:29 +0100
+committer Andreas B <andreas@berrou.de> 2018-12-12 16:17:29 +0100
+
+    Added Pipeline
+
+
+
+:100644 100644 04e93644cce7db4a99146f00c2c47dde7217cd99 30fcfdd936e94a6434803f815591024b7cc71d18 M	Jenkinsfile
+:100644 100644 26dd00844e9a93b78bcda8b193d08aa97947c51b 43c8cb5f7bbf18921fd387dd5e0ce29a640a62aa M	target/surefire-reports/TEST-training.AppTest.xml
+:100644 100644 717dd9f95bbd60169819c7c9c9a017082071cf50 022c4254e545beea21064c67bb3c2fb21a5fa47e M	target/surefire-reports/training.AppTest.txt
