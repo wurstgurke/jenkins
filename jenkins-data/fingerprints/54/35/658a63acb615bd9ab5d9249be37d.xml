@@ -19,7 +19,7 @@
         </entry>
         <entry>
           <string>training</string>
-          <ranges>7-22,24-33,37-39,41,43-44,47-49</ranges>
+          <ranges>7-22,24-33,37-39,41,43-44,47-54,56</ranges>
         </entry>
       </usages>
       <records class="java.util.concurrent.CopyOnWriteArrayList">
@@ -434,6 +434,48 @@
           <containerId>05ad342fd61a32ba30f154d3a1cd1f722dd286a3cbe58ea746059bc08da1faec</containerId>
           <containerName>/confident_wescoff</containerName>
           <created>1544637528000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>66d9234f6022</host>
+          <containerId>66d9234f60225ce86fe94d1b7d1722a3a93c5c093a5a3d1d269711665691a461</containerId>
+          <containerName>/nostalgic_spence</containerName>
+          <created>1544638989000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>31b2798d9f19</host>
+          <containerId>31b2798d9f19d95b6a7929efdeaec6a7619b20ee07c758ae8b139d4d694167b1</containerId>
+          <containerName>/xenodochial_fermi</containerName>
+          <created>1544639172000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>a8bf3ef81450</host>
+          <containerId>a8bf3ef81450d49a90ea0cbe9ee415d2c82e9edc9474d58e89d3601a8799291f</containerId>
+          <containerName>/gifted_zhukovsky</containerName>
+          <created>1544639309000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>000d64a3df07</host>
+          <containerId>000d64a3df07a21b721b2711af1c63bc50ddbad41b7729ec0b364d69426279c4</containerId>
+          <containerName>/flamboyant_colden</containerName>
+          <created>1544639655000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>6405f735c173</host>
+          <containerId>6405f735c1737a2fb629b4d9402e3b231d2c49b37f43480101a913e27b2cfc1d</containerId>
+          <containerName>/naughty_varahamihira</containerName>
+          <created>1544639868000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>3324d543f777</host>
+          <containerId>3324d543f7776a5ac3a3fbf1ad08736523e012f187f3bf631824965bd6cdb476</containerId>
+          <containerName>/zen_poitras</containerName>
+          <created>1544640104000</created>
           <tags/>
         </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
       </records>

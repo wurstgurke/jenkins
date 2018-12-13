@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.22">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.60">
+    <parentIds>
+      <string>18</string>
+    </parentIds>
+    <id>19</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.60">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+                    chmod 775 ./scripts/start-hub.sh
+                    chmod 775 ./scripts/stop-hub.sh
+                    ./scripts/stop-hub.sh
+                    ./scripts/start-hub.sh
+                 </string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.32">
+      <startTime>1544679552108</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>
