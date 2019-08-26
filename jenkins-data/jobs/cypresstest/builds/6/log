@@ -1,0 +1,2415 @@
+Started by user [8mha:////4Av13BAALwpaQ0RIoCWRmRdejm9WnuLA5xwqMF7lGCIDAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYB/dLi1CL98tKi4pL00qLsVABUdWehxQAAAA==[0mWurst Gurke
+Obtained cypress_kitchensink/Jenkinsfile from git https://github.com/wurstgurke/testinglab.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C/Df06BjIsiK+Puk/86h8HV/TB/Dij+fBEFE0SOv69BAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4O2jnyf4EbYgHbTDBMphizs7lJ+qmGBxT99XGHDWoSu2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4B6cVxAhR3TXbw7bfGrrDZ04MXNY7Q0JiaMTcdFgvmVPAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/cypresstest
+[8mha:////4M6Ik5AKdGLG3zsNSkkqP0x3yzXhcrBjx78kOv4IhX0iAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4P5shY7zkAPi+5q8xxSs//fNgVfh2bo2+zsE3LMErDbsAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4CDkbg47HH/hNUqkvG8ZpWmtYpzAJbj4+GsO18iEy5ImAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4HGJDgHwaZ/suDBfXBW027J3Ojr+s7ZioL6Pv5i35VnGAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/wurstgurke/testinglab.git # timeout=10
+Fetching upstream changes from https://github.com/wurstgurke/testinglab.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress https://github.com/wurstgurke/testinglab.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5bd37ba54a680e94af118b41ebe44ef22bbf33d8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5bd37ba54a680e94af118b41ebe44ef22bbf33d8
+Commit message: "nice"
+First time build. Skipping changelog.
+[8mha:////4F6pS3sk4jfuzsrOxeBgA63NtrkNt4pCuFxW9zdbgJo/AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4FSdDu0aHg7PXkalFiYFZOlfA8Iua6Rw0rWf0ZEURU3iAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4MM3ynjqA/6PkRtyThQT1VgMw1lVec8TrlG8knAyiW6AAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4J2NbHKOT8hskvQoUQKsx8rvN8qTn6fTAdOyvip51LhNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4AxTJWci/SARpuL99MI3meB7+0+DEnLp3qbC4RwgpP1mAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ docker inspect -f . cypress/base:10
+.
+[8mha:////4BHuE+77PqiQdmeyy9m2nTSuotPu1QsxzdQ3Ml+DVhXwAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFSNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPyt/2UMIAAAA=[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 168432c8d7c79336bb0ba89125a6c657b6386d102aead7e98df76614c472d1b0
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/cypresstest --volumes-from 168432c8d7c79336bb0ba89125a6c657b6386d102aead7e98df76614c472d1b0 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** cypress/base:10 cat
+$ docker top e4d82111f5c6ef004116019ed25523efca3d993e74cbd9b78d58490f9a88dbcd -eo pid,comm
+[8mha:////4MdtI+GUYJnyDNsG1icA1DFuVQezK136bi3AIQmgBYRAAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4PexKb97i0GKthUhekdOargR9CyorBNFkVr9+jy10PZ7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] stage
+[8mha:////4EaXHnh9owCPbe99GqaErSfsT9CXf9ydto2j336g9fA2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (build)
+[8mha:////4MZcwx21JAES79S9VFmuhg92hZVlYZzD5aH8Q4CO8xHxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] echo
+Running build 6 on http://localhost:8180/
+[8mha:////4CDvP8A1IrfjEFGYh9Mr/iMemvFJwt8Zj6M1YO5Tox6hAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGh1CMKvgAAAA==[0m[Pipeline] sh
++ npm ci
+npm WARN prepare removing existing node_modules/ before installation
+
+> core-js@2.6.9 postinstall /var/jenkins_home/workspace/cypresstest/node_modules/core-js
+> node scripts/postinstall || echo "ignore"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> husky@1.3.1 install /var/jenkins_home/workspace/cypresstest/node_modules/husky
+> node husky install
+
+husky > setting up git hooks
+CI detected, skipping Git hooks installation.
+
+> cypress@3.4.1 postinstall /var/jenkins_home/workspace/cypresstest/node_modules/cypress
+> node index.js --exec install
+
+Installing Cypress (version: 3.4.1)
+
+[?25l[09:47:06]  Downloading Cypress     [started]
+[09:47:12]  Downloading Cypress     [completed]
+[09:47:12]  Unzipping Cypress       [started]
+[09:48:54]  Unzipping Cypress       [completed]
+[09:48:54]  Finishing Installation  [started]
+[09:48:54]  Finishing Installation  [completed]
+[?25h
+You can now open Cypress by running: node_modules/.bin/cypress open
+
+https://on.cypress.io/installing-cypress
+
+[?25hadded 837 packages in 323.504s
+[8mha:////4P51G8E+NAGTbzCE1E5JJOptxr6x2grrSK10jf3Yx9aqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHg5TgTvgAAAA==[0m[Pipeline] sh
++ npm run cy:verify
+
+> cypress-example-kitchensink@0.0.0-development cy:verify /var/jenkins_home/workspace/cypresstest
+> cypress verify
+
+It looks like this is your first time using Cypress: 3.4.1
+
+[?25l[09:49:08]  Verifying Cypress can run /root/.cache/Cypress/3.4.1/Cypress [started]
+[09:49:11]  Verifying Cypress can run /root/.cache/Cypress/3.4.1/Cypress [completed]
+[?25h[?25h[8mha:////4Pwr1OHWV55x4XkQ6Je4o5iALSOo0eBR+ge1IL2fDDqgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] }
+[8mha:////4K65ofcvyfKlC8shQLNBOV9NuoWpP13HcvsZ/SKQ1+whAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIFEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEOmjScvgAAAA==[0m[Pipeline] // stage
+[8mha:////4ClKGboHwxiQYKhU8hDZ4gmEJ+reT7HOeg2Ai5onc64tAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUVGyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7fbam+TyrN7C6FdvCAAAA[0m[Pipeline] stage
+[8mha:////4ODFGHW3yAXHBLVrh9qvCp62i15L5zWHhjaDixnvT8ugAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (start local server)
+[8mha:////4KvrpIXIOyM2TrsiRRvz4C43OtEUnbXVq2bQKHh1bIx9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ nohup npm run start:ci
+[8mha:////4Kx8T2nuv/bgqCMsoq86OsORaGtUDg7U7ylfidgBxpvhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4Ie+ceot9R7pUxdGFah6zYyhICRhsu9RenqP4iJZCE7fAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // stage
+[8mha:////4JQ0wxbO7OsQDCBGpv4JhamFtKRMs2jwS8AH/AOme8rIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICQG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm8DK9iLwgAAAA==[0m[Pipeline] stage
+[8mha:////4OPzWFkGt3LSmSjZCXr7H/yLnhvOLMsID0IHO1GnElwcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (cypress tests)
+[8mha:////4Dj7DjCj/oZpaDixKxFcsV7mW1vM2d7XnZt4mXqj/PtiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] echo
+Running build ${env.BUILD_ID}
+[8mha:////4ISlIyA1nc6qSyEh0SSzIu7EaKIYMmeLYrmR0ksWUQePAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw959s4fvgAAAA==[0m[Pipeline] sh
++ npm run e2e
+
+> cypress-example-kitchensink@0.0.0-development e2e /var/jenkins_home/workspace/cypresstest
+> cypress run
+
+
+================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:  3.4.1                                                            │
+  │ Browser:  Electron 61 (headless)                                           │
+  │ Specs:    19 found (examples/actions.spec.js, examples/aliasing.spec.js, … │
+  └────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/actions.spec.js...                                (1 of 19) 
+
+
+  Actions
+    1) "before each" hook for ".type() - type into a DOM element"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Actions "before each" hook for ".type() - type into a DOM element":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/actions
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Actions'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────┐
+  │ Tests:        13                       │
+  │ Passing:      0                        │
+  │ Failing:      1                        │
+  │ Pending:      0                        │
+  │ Skipped:      12                       │
+  │ Screenshots:  1                        │
+  │ Video:        true                     │
+  │ Duration:     1 second                 │
+  │ Spec Ran:     examples/actions.spec.js │
+  └────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/actions.spec.js/Actions -- .type() - type into a DOM element -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/actions.spec.js.mp4 (3 seconds)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/aliasing.spec.js...                               (2 of 19) 
+
+
+  Aliasing
+    1) "before each" hook for ".as() - alias a DOM element for later use"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Aliasing "before each" hook for ".as() - alias a DOM element for later use":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/aliasing
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Aliasing'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌─────────────────────────────────────────┐
+  │ Tests:        2                         │
+  │ Passing:      0                         │
+  │ Failing:      1                         │
+  │ Pending:      0                         │
+  │ Skipped:      1                         │
+  │ Screenshots:  1                         │
+  │ Video:        true                      │
+  │ Duration:     1 second                  │
+  │ Spec Ran:     examples/aliasing.spec.js │
+  └─────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/aliasing.spec.js/Aliasing -- .as() - alias a DOM element for later use -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/aliasing.spec.js.mp4 (2 seconds)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/assertions.spec.js...                             (3 of 19) 
+
+
+  Assertions
+    Implicit Assertions
+      1) "before each" hook for ".should() - make an assertion about the current subject"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Assertions Implicit Assertions "before each" hook for ".should() - make an assertion about the current subject":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/assertions
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Assertions'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌───────────────────────────────────────────┐
+  │ Tests:        8                           │
+  │ Passing:      0                           │
+  │ Failing:      1                           │
+  │ Pending:      0                           │
+  │ Skipped:      7                           │
+  │ Screenshots:  1                           │
+  │ Video:        true                        │
+  │ Duration:     1 second                    │
+  │ Spec Ran:     examples/assertions.spec.js │
+  └───────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/assertions.spec.js/Assertions -- .should() - make an assertion about the current subject -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/assertions.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/connectors.spec.js...                             (4 of 19) 
+
+
+  Connectors
+    1) "before each" hook for ".each() - iterate over an array of elements"
+
+
+  0 passing (2s)
+  1 failing
+
+  1) Connectors "before each" hook for ".each() - iterate over an array of elements":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/connectors
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Connectors'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌───────────────────────────────────────────┐
+  │ Tests:        7                           │
+  │ Passing:      0                           │
+  │ Failing:      1                           │
+  │ Pending:      0                           │
+  │ Skipped:      6                           │
+  │ Screenshots:  1                           │
+  │ Video:        true                        │
+  │ Duration:     1 second                    │
+  │ Spec Ran:     examples/connectors.spec.js │
+  └───────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/connectors.spec.js/Connectors -- .each() - iterate over an array of elements -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/connectors.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/cookies.spec.js...                                (5 of 19) 
+
+
+  Cookies
+    1) "before each" hook for "cy.getCookie() - get a browser cookie"
+
+
+  0 passing (2s)
+  1 failing
+
+  1) Cookies "before each" hook for "cy.getCookie() - get a browser cookie":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/cookies
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cookies'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────┐
+  │ Tests:        5                        │
+  │ Passing:      0                        │
+  │ Failing:      1                        │
+  │ Pending:      0                        │
+  │ Skipped:      4                        │
+  │ Screenshots:  1                        │
+  │ Video:        true                     │
+  │ Duration:     1 second                 │
+  │ Spec Ran:     examples/cookies.spec.js │
+  └────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cookies.spec.js/Cookies -- cy.getCookie() - get a browser cookie -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/cookies.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/cypress_api.spec.js...                            (6 of 19) 
+
+
+  Cypress.Commands
+    1) "before each" hook for ".add() - create a custom command"
+
+  Cypress.Cookies
+    2) "before each" hook for ".debug() - enable or disable debugging"
+
+  Cypress.Server
+    3) "before each" hook for ".defaults() - change default config of server"
+
+  Cypress.arch
+    4) "before each" hook for "Get CPU architecture name of underlying OS"
+
+  Cypress.config()
+    5) "before each" hook for "Get and set configuration options"
+
+  Cypress.dom
+    6) "before each" hook for ".isHidden() - determine if a DOM element is hidden"
+
+  Cypress.env()
+    7) "before each" hook for "Get environment variables"
+
+  Cypress.log
+    8) "before each" hook for "Control what is printed to the Command Log"
+
+  Cypress.platform
+    9) "before each" hook for "Get underlying OS name"
+
+  Cypress.version
+    10) "before each" hook for "Get current version of Cypress being run"
+
+  Cypress.spec
+    11) "before each" hook for "Get current spec information"
+
+
+  0 passing (17s)
+  11 failing
+
+  1) Cypress.Commands "before each" hook for ".add() - create a custom command":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.Commands'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  2) Cypress.Cookies "before each" hook for ".debug() - enable or disable debugging":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.Cookies'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  3) Cypress.Server "before each" hook for ".defaults() - change default config of server":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.Server'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  4) Cypress.arch "before each" hook for "Get CPU architecture name of underlying OS":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.arch'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  5) Cypress.config() "before each" hook for "Get and set configuration options":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.config()'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  6) Cypress.dom "before each" hook for ".isHidden() - determine if a DOM element is hidden":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.dom'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  7) Cypress.env() "before each" hook for "Get environment variables":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.env()'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  8) Cypress.log "before each" hook for "Control what is printed to the Command Log":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.log'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  9) Cypress.platform "before each" hook for "Get underlying OS name":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.platform'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  10) Cypress.version "before each" hook for "Get current version of Cypress being run":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.version'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  11) Cypress.spec "before each" hook for "Get current spec information":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/cypress-api
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Cypress.spec'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────┐
+  │ Tests:        13                           │
+  │ Passing:      0                            │
+  │ Failing:      11                           │
+  │ Pending:      0                            │
+  │ Skipped:      2                            │
+  │ Screenshots:  11                           │
+  │ Video:        true                         │
+  │ Duration:     16 seconds                   │
+  │ Spec Ran:     examples/cypress_api.spec.js │
+  └────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.Commands -- .add() - create a custom command -- before each hook (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.Cookies -- .debug() - enable or disable debugging -- before each hook (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.Server -- .defaults() - change default config of server -- before each hook (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.arch -- Get CPU architecture name of underlying OS -- before each hook (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.config() -- Get and set configuration options -- before each hook (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.dom -- .isHidden() - determine if a DOM element is hidden -- before each hook (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.env() -- Get environment variables -- before each hook (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.log -- Control what is printed to the Command Log -- before each hook (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.platform -- Get underlying OS name -- before each hook (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.version -- Get current version of Cypress being run -- before each hook (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/cypress_api.spec.js/Cypress.spec -- Get current spec information -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/cypress_api.spec.js.mp4 (4 seconds)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/files.spec.js...                                  (7 of 19) 
+
+
+  Files
+    1) "before each" hook for "cy.fixture() - load a fixture"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Files "before each" hook for "cy.fixture() - load a fixture":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/files
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Files'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌──────────────────────────────────────┐
+  │ Tests:        4                      │
+  │ Passing:      0                      │
+  │ Failing:      1                      │
+  │ Pending:      0                      │
+  │ Skipped:      3                      │
+  │ Screenshots:  1                      │
+  │ Video:        true                   │
+  │ Duration:     1 second               │
+  │ Spec Ran:     examples/files.spec.js │
+  └──────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/files.spec.js/Files -- cy.fixture() - load a fixture -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/files.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/local_storage.spec.js...                          (8 of 19) 
+
+
+  Local Storage
+    1) "before each" hook for "cy.clearLocalStorage() - clear all data in local storage"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Local Storage "before each" hook for "cy.clearLocalStorage() - clear all data in local storage":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/local-storage
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Local Storage'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌──────────────────────────────────────────────┐
+  │ Tests:        1                              │
+  │ Passing:      0                              │
+  │ Failing:      1                              │
+  │ Pending:      0                              │
+  │ Skipped:      0                              │
+  │ Screenshots:  1                              │
+  │ Video:        true                           │
+  │ Duration:     1 second                       │
+  │ Spec Ran:     examples/local_storage.spec.js │
+  └──────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/local_storage.spec.js/Local Storage -- cy.clearLocalStorage() - clear all data in local storage -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/local_storage.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/location.spec.js...                               (9 of 19) 
+
+
+  Location
+    1) "before each" hook for "cy.hash() - get the current URL hash"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Location "before each" hook for "cy.hash() - get the current URL hash":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/location
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Location'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌─────────────────────────────────────────┐
+  │ Tests:        3                         │
+  │ Passing:      0                         │
+  │ Failing:      1                         │
+  │ Pending:      0                         │
+  │ Skipped:      2                         │
+  │ Screenshots:  1                         │
+  │ Video:        true                      │
+  │ Duration:     1 second                  │
+  │ Spec Ran:     examples/location.spec.js │
+  └─────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/location.spec.js/Location -- cy.hash() - get the current URL hash -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/location.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/misc.spec.js...                                  (10 of 19) 
+
+
+  Misc
+    1) "before each" hook for ".end() - end the command chain"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Misc "before each" hook for ".end() - end the command chain":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/misc
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Misc'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌─────────────────────────────────────┐
+  │ Tests:        6                     │
+  │ Passing:      0                     │
+  │ Failing:      1                     │
+  │ Pending:      0                     │
+  │ Skipped:      5                     │
+  │ Screenshots:  1                     │
+  │ Video:        true                  │
+  │ Duration:     1 second              │
+  │ Spec Ran:     examples/misc.spec.js │
+  └─────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/misc.spec.js/Misc -- .end() - end the command chain -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/misc.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/navigation.spec.js...                            (11 of 19) 
+(node:562) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exitEarlyWithErr listeners added. Use emitter.setMaxListeners() to increase limit
+
+
+  Navigation
+    1) "before each" hook for "cy.go() - go back or forward in the browser's history"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Navigation "before each" hook for "cy.go() - go back or forward in the browser's history":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Navigation'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌───────────────────────────────────────────┐
+  │ Tests:        3                           │
+  │ Passing:      0                           │
+  │ Failing:      1                           │
+  │ Pending:      0                           │
+  │ Skipped:      2                           │
+  │ Screenshots:  1                           │
+  │ Video:        true                        │
+  │ Duration:     1 second                    │
+  │ Spec Ran:     examples/navigation.spec.js │
+  └───────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/navigation.spec.js/Navigation -- cy.go() - go back or forward in the browser's history -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/navigation.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/network_requests.spec.js...                      (12 of 19) 
+
+
+  Network Requests
+    1) "before each" hook for "cy.server() - control behavior of network requests and responses"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Network Requests "before each" hook for "cy.server() - control behavior of network requests and responses":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/network-requests
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Network Requests'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌─────────────────────────────────────────────────┐
+  │ Tests:        7                                 │
+  │ Passing:      0                                 │
+  │ Failing:      1                                 │
+  │ Pending:      0                                 │
+  │ Skipped:      6                                 │
+  │ Screenshots:  1                                 │
+  │ Video:        true                              │
+  │ Duration:     1 second                          │
+  │ Spec Ran:     examples/network_requests.spec.js │
+  └─────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/network_requests.spec.js/Network Requests -- cy.server() - control behavior of network requests and responses -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/network_requests.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/querying.spec.js...                              (13 of 19) 
+
+
+  Querying
+    1) "before each" hook for "cy.get() - query DOM elements"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Querying "before each" hook for "cy.get() - query DOM elements":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/querying
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Querying'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌─────────────────────────────────────────┐
+  │ Tests:        5                         │
+  │ Passing:      0                         │
+  │ Failing:      1                         │
+  │ Pending:      0                         │
+  │ Skipped:      4                         │
+  │ Screenshots:  1                         │
+  │ Video:        true                      │
+  │ Duration:     1 second                  │
+  │ Spec Ran:     examples/querying.spec.js │
+  └─────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/querying.spec.js/Querying -- cy.get() - query DOM elements -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/querying.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/spies_stubs_clocks.spec.js...                    (14 of 19) 
+
+
+  Spies, Stubs, and Clock
+    1) cy.spy() - wrap a method in a spy
+    2) cy.spy() retries until assertions pass
+    3) cy.stub() - create a stub and/or replace a function with stub
+    4) cy.clock() - control time in the browser
+    5) cy.tick() - move time in the browser
+
+
+  0 passing (8s)
+  5 failing
+
+  1) Spies, Stubs, and Clock cy.spy() - wrap a method in a spy:
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/spies-stubs-clocks
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  2) Spies, Stubs, and Clock cy.spy() retries until assertions pass:
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/spies-stubs-clocks
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  3) Spies, Stubs, and Clock cy.stub() - create a stub and/or replace a function with stub:
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/spies-stubs-clocks
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  4) Spies, Stubs, and Clock cy.clock() - control time in the browser:
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/spies-stubs-clocks
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+  5) Spies, Stubs, and Clock cy.tick() - move time in the browser:
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/spies-stubs-clocks
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌───────────────────────────────────────────────────┐
+  │ Tests:        5                                   │
+  │ Passing:      0                                   │
+  │ Failing:      5                                   │
+  │ Pending:      0                                   │
+  │ Skipped:      0                                   │
+  │ Screenshots:  5                                   │
+  │ Video:        true                                │
+  │ Duration:     7 seconds                           │
+  │ Spec Ran:     examples/spies_stubs_clocks.spec.js │
+  └───────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/spies_stubs_clocks.spec.js/Spies, Stubs, and Clock -- cy.spy() - wrap a method in a spy (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/spies_stubs_clocks.spec.js/Spies, Stubs, and Clock -- cy.spy() retries until assertions pass (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/spies_stubs_clocks.spec.js/Spies, Stubs, and Clock -- cy.stub() - create a stub andor replace a function with stub (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/spies_stubs_clocks.spec.js/Spies, Stubs, and Clock -- cy.clock() - control time in the browser (failed).png (1280x720)
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/spies_stubs_clocks.spec.js/Spies, Stubs, and Clock -- cy.tick() - move time in the browser (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/spies_stubs_clocks.spec.js.mp4 (2 seconds)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/traversal.spec.js...                             (15 of 19) 
+
+
+  Traversal
+    1) "before each" hook for ".children() - get child DOM elements"
+
+
+  0 passing (2s)
+  1 failing
+
+  1) Traversal "before each" hook for ".children() - get child DOM elements":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/traversal
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Traversal'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌──────────────────────────────────────────┐
+  │ Tests:        18                         │
+  │ Passing:      0                          │
+  │ Failing:      1                          │
+  │ Pending:      0                          │
+  │ Skipped:      17                         │
+  │ Screenshots:  1                          │
+  │ Video:        true                       │
+  │ Duration:     1 second                   │
+  │ Spec Ran:     examples/traversal.spec.js │
+  └──────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/traversal.spec.js/Traversal -- .children() - get child DOM elements -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/traversal.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/utilities.spec.js...                             (16 of 19) 
+
+
+  Utilities
+    1) "before each" hook for "Cypress._ - call a lodash method"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Utilities "before each" hook for "Cypress._ - call a lodash method":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/utilities
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Utilities'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌──────────────────────────────────────────┐
+  │ Tests:        6                          │
+  │ Passing:      0                          │
+  │ Failing:      1                          │
+  │ Pending:      0                          │
+  │ Skipped:      5                          │
+  │ Screenshots:  1                          │
+  │ Video:        true                       │
+  │ Duration:     1 second                   │
+  │ Spec Ran:     examples/utilities.spec.js │
+  └──────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/utilities.spec.js/Utilities -- Cypress._ - call a lodash method -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/utilities.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/viewport.spec.js...                              (17 of 19) 
+
+
+  Viewport
+    1) "before each" hook for "cy.viewport() - set the viewport size and dimension"
+
+
+  0 passing (2s)
+  1 failing
+
+  1) Viewport "before each" hook for "cy.viewport() - set the viewport size and dimension":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/viewport
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Viewport'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌─────────────────────────────────────────┐
+  │ Tests:        1                         │
+  │ Passing:      0                         │
+  │ Failing:      1                         │
+  │ Pending:      0                         │
+  │ Skipped:      0                         │
+  │ Screenshots:  1                         │
+  │ Video:        true                      │
+  │ Duration:     1 second                  │
+  │ Spec Ran:     examples/viewport.spec.js │
+  └─────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/viewport.spec.js/Viewport -- cy.viewport() - set the viewport size and dimension -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/viewport.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/waiting.spec.js...                               (18 of 19) 
+
+
+  Waiting
+    1) "before each" hook for "cy.wait() - wait for a specific amount of time"
+
+
+  0 passing (1s)
+  1 failing
+
+  1) Waiting "before each" hook for "cy.wait() - wait for a specific amount of time":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/waiting
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Waiting'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────┐
+  │ Tests:        2                        │
+  │ Passing:      0                        │
+  │ Failing:      1                        │
+  │ Pending:      0                        │
+  │ Skipped:      1                        │
+  │ Screenshots:  1                        │
+  │ Video:        true                     │
+  │ Duration:     0 seconds                │
+  │ Spec Ran:     examples/waiting.spec.js │
+  └────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/waiting.spec.js/Waiting -- cy.wait() - wait for a specific amount of time -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/waiting.spec.js.mp4 (1 second)
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: examples/window.spec.js...                                (19 of 19) 
+
+
+  Window
+    1) "before each" hook for "cy.window() - get the global window object"
+
+
+  0 passing (2s)
+  1 failing
+
+  1) Window "before each" hook for "cy.window() - get the global window object":
+     CypressError: cy.visit() failed trying to load:
+
+http://localhost:8080/commands/window
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: connect ECONNREFUSED 127.0.0.1:8080
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+
+The stack trace for this error is:
+
+Error: connect ECONNREFUSED 127.0.0.1:8080
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+
+
+Because this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: 'Window'
+      at Object.cypressErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85348:11)
+      at Object.throwErr (http://localhost:37905/__cypress/runner/cypress_runner.js:85303:18)
+      at Object.throwErrByPath (http://localhost:37905/__cypress/runner/cypress_runner.js:85335:17)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73981:31
+      at visitFailedByErr (http://localhost:37905/__cypress/runner/cypress_runner.js:73499:12)
+      at http://localhost:37905/__cypress/runner/cypress_runner.js:73980:22
+      at tryCatcher (http://localhost:37905/__cypress/runner/cypress_runner.js:118962:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37905/__cypress/runner/cypress_runner.js:116898:31)
+      at Promise._settlePromise (http://localhost:37905/__cypress/runner/cypress_runner.js:116955:18)
+      at Promise._settlePromise0 (http://localhost:37905/__cypress/runner/cypress_runner.js:117000:10)
+      at Promise._settlePromises (http://localhost:37905/__cypress/runner/cypress_runner.js:117075:18)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37905/__cypress/runner/cypress_runner.js:113687:16)
+      at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113697:10)
+      at Async.drainQueues (http://localhost:37905/__cypress/runner/cypress_runner.js:113571:14)
+      at <anonymous>
+
+
+
+
+  (Results)
+
+  ┌───────────────────────────────────────┐
+  │ Tests:        3                       │
+  │ Passing:      0                       │
+  │ Failing:      1                       │
+  │ Pending:      0                       │
+  │ Skipped:      2                       │
+  │ Screenshots:  1                       │
+  │ Video:        true                    │
+  │ Duration:     1 second                │
+  │ Spec Ran:     examples/window.spec.js │
+  └───────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  - /var/jenkins_home/workspace/cypresstest/cypress/screenshots/examples/window.spec.js/Window -- cy.window() - get the global window object -- before each hook (failed).png (1280x720)
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /var/jenkins_home/workspace/cypresstest/cypress/videos/examples/window.spec.js.mp4 (1 second)
+
+
+================================================================================
+
+  (Run Finished)
+
+
+      Spec                                    Tests  Pass…  Fail…  Pend…  Skip… 
+  ┌────────────────────────────────────────────────────────────────────────────┐
+  │ ✖ examples/actions.spec.js        00:01     13      -      1      -     12 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/aliasing.spec.js       00:01      2      -      1      -      1 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/assertions.spec.js     00:01      8      -      1      -      7 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/connectors.spec.js     00:01      7      -      1      -      6 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/cookies.spec.js        00:01      5      -      1      -      4 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/cypress_api.spec.js    00:16     13      -     11      -      2 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/files.spec.js          00:01      4      -      1      -      3 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/local_storage.spec.…   00:01      1      -      1      -      - │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/location.spec.js       00:01      3      -      1      -      2 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/misc.spec.js           00:01      6      -      1      -      5 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/navigation.spec.js     00:01      3      -      1      -      2 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/network_requests.sp…   00:01      7      -      1      -      6 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/querying.spec.js       00:01      5      -      1      -      4 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/spies_stubs_clocks.…   00:07      5      -      5      -      - │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/traversal.spec.js      00:01     18      -      1      -     17 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/utilities.spec.js      00:01      6      -      1      -      5 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/viewport.spec.js       00:01      1      -      1      -      - │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/waiting.spec.js        990ms      2      -      1      -      1 │
+  ├────────────────────────────────────────────────────────────────────────────┤
+  │ ✖ examples/window.spec.js         00:01      3      -      1      -      2 │
+  └────────────────────────────────────────────────────────────────────────────┘
+    19 of 19 failed (100%)            00:47    112      -     33      -     79  
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 33
+npm ERR! cypress-example-kitchensink@0.0.0-development e2e: `cypress run`
+npm ERR! Exit status 33
+npm ERR! 
+npm ERR! Failed at the cypress-example-kitchensink@0.0.0-development e2e script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-08-23T09_51_54_508Z-debug.log
+[8mha:////4Jpk/h0QYuHM1azreB2Bs093UFga2zVZadYiRBVNbSA9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Evt9vvgAAAA==[0m[Pipeline] }
+[8mha:////4JQpSlnYGrGAxdjmILAGBisRA3vZUMe6zxmKSWaKtEQSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihYICUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw/70fR5vgAAAA==[0m[Pipeline] // stage
+[8mha:////4HoPDMwFHI9/DCz7/9OhUzLzyjJQ9S8jVDpBVvvrFkllAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqGyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7fbam+TyrN6FiPrbCAAAA[0m[Pipeline] stage
+[8mha:////4OdQWzApPc/s2rmJdW7wH9/vxSfZAnwuswTVboaq2v2DAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4GIhRVvrBu+crGlzjb5qQY3weJkC8VXoUTUSrRFDnP+VAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] echo
+Stopping local server
+[8mha:////4ON/SFMJ04KjTeCrUnJXj9rdasxlMLJ9A71qYwAjqtdKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxU7nkK+AAAA[0m[Pipeline] sh
++ pkill -f http-server
+Error when executing always post condition:
+hudson.AbortException: script returned exit code 1
+	at org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.handleExit(DurableTaskStep.java:569)
+	at org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.check(DurableTaskStep.java:515)
+	at org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.run(DurableTaskStep.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[8mha:////4HNO3JJdSYG+37th1dYJ2Vs1885a/PgIp/OeuMAKUbVuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGzICupvgAAAA==[0m[Pipeline] }
+[8mha:////4FVz0SgajjHS3TheYrpbdumqHoh6/nROuFI6cIl+rYuBAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpHHGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DcUHGca+AAAA[0m[Pipeline] // stage
+[8mha:////4ODvnztEGYoQwyrw/ZCo99oeuHvaVJUBAE5QBmhHQ8UlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w9BIxehvgAAAA==[0m[Pipeline] }
+$ docker stop --time=1 e4d82111f5c6ef004116019ed25523efca3d993e74cbd9b78d58490f9a88dbcd
+$ docker rm -f e4d82111f5c6ef004116019ed25523efca3d993e74cbd9b78d58490f9a88dbcd
+[8mha:////4JBfT9aKLTlCdmbL07zNCDGVcmOEUsO8bHYGmRGIDHwsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICgg6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trtP6TZ292+AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4PFOA+Ts0ldGzUIF2moyZp5oXItKv7eOtBqhE6RjuskOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRJDpERWu54QUmMcaOdWfsC0nFi/gaf8AiEhVbrHa2mdcb1jnBkZIV3uDgMHdOxDDassREabgGmoSni+gIMwUjlJkU9ea0oCI2sKSqYSVhY7ALlB1ahq30+qGboNE2Z07lO0ioXX+HJ1SymFkn/sKcYHcb+0z48/wVwBwjQ71vS7XtBy1rifi+AAAA[0m[Pipeline] }
+[8mha:////4OID8NkTtm4GzrfGr2M1uBQE+emhWwTVBT117NSTcAZNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICiA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY59ptPxUpGgm+AAAA[0m[Pipeline] // withEnv
+[8mha:////4C67P/nEyBzkZSQrIBs7gop+IeV8Yk5I3oHucyc+bBp0AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/mwCjFvQAAAA==[0m[Pipeline] }
+[8mha:////4EA3aAYaxh+2l17XgIJANVdm2J8aGz0yDzqLwjv4q7X4AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9ViWzpvQAAAA==[0m[Pipeline] // node
+[8mha:////4H+9nxORbPv5vk9JYB9D7O/uovxHa7gmCpgKdxN02aZKAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPc5ALo70AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 33
+Finished: FAILURE

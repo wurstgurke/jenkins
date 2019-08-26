@@ -1,91 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <parent>
-        <groupId>io.jenkins.blueocean</groupId>
-        <artifactId>blueocean-parent</artifactId>
-        <version>1.9.0</version>
-    </parent>
-
-    <artifactId>blueocean-web</artifactId>
-    <packaging>hpi</packaging>
-
-    <name>Web for Blue Ocean</name>
-
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/Blue+Ocean+Plugin</url>
-
-    <dependencies>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>blueocean-rest</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.jenkins-ci.plugins</groupId>
-            <artifactId>variant</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>jenkins-design-language</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>blueocean-core-js</artifactId>
-        </dependency>
-
-        <!-- test scope deps -->
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>InjectedTest.java</exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-    <profiles>
-        <profile>
-            <id>dev</id>
-                <build>
-                    <plugins>
-                        <plugin>
-                            <groupId>org.codehaus.gmaven</groupId>
-                            <artifactId>groovy-maven-plugin</artifactId>
-                            <version>2.0</version>
-                            <executions>
-                                <execution>
-                                    <phase>install</phase>
-                                    <goals>
-                                        <goal>execute</goal>
-                                    </goals>
-                                </execution>
-                            </executions>
-                            <configuration>
-                                <source>
-                                    def plugins = new File(basedir, 'work/plugins');
-                                    plugins.mkdirs();
-                                    def blueoceanPlugins = ["blueocean-commons","blueocean-rest","blueocean"]
-                                    for (a in blueoceanPlugins) {
-                                        def name = a + ".hpi";
-                                        def p = new File(basedir, "../" + a + "/target/"+ name);
-                                        ant.copy(file: p, tofile: new File(plugins,name), overwrite: true, verbose: true);
-                                    }
-                                </source>
-                            </configuration>
-                        </plugin>
-                    </plugins>
-                </build>
-        </profile>
-    </profiles>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.jenkins.blueocean</groupId>
+  <artifactId>blueocean-web</artifactId>
+  <version>1.18.1</version>
+  <packaging>hpi</packaging>
+  <name>Web for Blue Ocean</name>
+  <description>The Jenkins Plugins Parent POM Project</description>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Blue+Ocean+Plugin</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>scherler</id>
+      <name>Thorsten Iberian Sumurai</name>
+    </developer>
+    <developer>
+      <id>cliffmeyers</id>
+      <name>Cliff Meyers</name>
+    </developer>
+    <developer>
+      <id>tfennelly</id>
+      <name>Tom Fennelly</name>
+    </developer>
+    <developer>
+      <id>vivek</id>
+      <name>Vivek Pandey</name>
+    </developer>
+    <developer>
+      <id>kohsuke</id>
+      <name>Kohsuke</name>
+    </developer>
+    <developer>
+      <id>sophistifunk</id>
+      <name>Josh McDonald</name>
+    </developer>
+    <developer>
+      <id>imeredith</id>
+      <name>Ivan Meredith</name>
+    </developer>
+    <developer>
+      <id>michaelneale</id>
+      <name>Michael Neale</name>
+    </developer>
+    <developer>
+      <id>kzantow</id>
+      <name>Keith Zantow</name>
+    </developer>
+    <developer>
+      <id>i386</id>
+      <name>James Dumay</name>
+    </developer>
+    <developer>
+      <id>marcesher</id>
+      <name>Marc</name>
+    </developer>
+    <developer>
+      <id>dragoonis</id>
+      <name>Paul Dragoonis</name>
+    </developer>
+    <developer>
+      <id>pragmaticivan</id>
+      <name>Ivan Santos</name>
+    </developer>
+    <developer>
+      <id>PeterDaveHello</id>
+      <name>Peter Dave Hello</name>
+    </developer>
+    <developer>
+      <id>alexsomai</id>
+      <name>Alexandru Somai</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/blueocean-plugin.git/blueocean-web</connection>
+    <developerConnection>scm:git:https://github.com/jenkinsci/blueocean-plugin.git/blueocean-web</developerConnection>
+    <tag>blueocean-parent-1.18.1</tag>
+    <url>https://github.com/jenkinsci/blueocean-plugin/blueocean-web</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.jenkins.blueocean</groupId>
+      <artifactId>blueocean-rest</artifactId>
+      <version>1.18.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>variant</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.blueocean</groupId>
+      <artifactId>jenkins-design-language</artifactId>
+      <version>1.18.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.blueocean</groupId>
+      <artifactId>blueocean-core-js</artifactId>
+      <version>1.18.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.spotbugs</groupId>
+      <artifactId>spotbugs-annotations</artifactId>
+      <version>3.1.12</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>net.jcip</groupId>
+      <artifactId>jcip-annotations</artifactId>
+      <version>1.0</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>animal-sniffer-annotations</artifactId>
+      <version>1.17</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.main</groupId>
+      <artifactId>jenkins-core</artifactId>
+      <version>2.138.4</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.25</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.kohsuke</groupId>
+      <artifactId>access-modifier-annotation</artifactId>
+      <version>1.16</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>annotation-indexer</artifactId>
+          <groupId>org.jenkins-ci</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.2</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
+    </repository>
+  </repositories>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.5</version>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <groupId>org.kohsuke.stapler</groupId>
+        <artifactId>maven-stapler-plugin</artifactId>
+        <version>1.17</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
 </project>

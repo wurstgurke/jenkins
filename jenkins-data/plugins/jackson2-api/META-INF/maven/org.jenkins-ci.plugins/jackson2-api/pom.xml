@@ -19,7 +19,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jenkins-ci.plugins</groupId>
   <artifactId>jackson2-api</artifactId>
-  <version>2.9.7.1</version>
+  <version>2.9.9.1</version>
   <packaging>hpi</packaging>
   <name>Jackson 2 API Plugin</name>
   <description>This plugin exposes the Jackson 2 JSON APIs to other Jenkins plugins.</description>
@@ -41,6 +41,10 @@
       <id>oleg_nenashev</id>
       <name>Oleg Nenashev</name>
     </developer>
+    <developer>
+      <id>jvz</id>
+      <name>Matt Sicker</name>
+    </developer>
   </developers>
   <prerequisites>
     <maven>3.3.9</maven>
@@ -48,7 +52,7 @@
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/jackson2-api-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/jackson2-api-plugin.git</developerConnection>
-    <tag>jackson2-api-2.9.7.1</tag>
+    <tag>jackson2-api-2.9.9.1</tag>
     <url>http://github.com/jenkinsci/jackson2-api-plugin</url>
   </scm>
   <distributionManagement>
@@ -65,43 +69,43 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.9.7</version>
+      <version>2.9.9.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jsr310</artifactId>
-      <version>2.9.7</version>
+      <version>2.9.9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>
       <artifactId>jackson-datatype-jdk8</artifactId>
-      <version>2.9.7</version>
+      <version>2.9.9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.module</groupId>
       <artifactId>jackson-module-parameter-names</artifactId>
-      <version>2.9.7</version>
+      <version>2.9.9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
-      <version>2.9.7</version>
+      <version>2.9.9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.module</groupId>
       <artifactId>jackson-module-jaxb-annotations</artifactId>
-      <version>2.9.7</version>
+      <version>2.9.9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.code.findbugs</groupId>
-      <artifactId>annotations</artifactId>
-      <version>3.0.0</version>
+      <groupId>com.github.spotbugs</groupId>
+      <artifactId>spotbugs-annotations</artifactId>
+      <version>3.1.12</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -141,7 +145,19 @@
     <dependency>
       <groupId>org.kohsuke</groupId>
       <artifactId>access-modifier-annotation</artifactId>
-      <version>1.15</version>
+      <version>1.16</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>annotation-indexer</artifactId>
+          <groupId>org.jenkins-ci</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.2</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
@@ -156,7 +172,7 @@
       <plugin>
         <groupId>org.jenkins-ci.tools</groupId>
         <artifactId>maven-hpi-plugin</artifactId>
-        <version>2.6</version>
+        <version>3.5</version>
         <extensions>true</extensions>
       </plugin>
       <plugin>

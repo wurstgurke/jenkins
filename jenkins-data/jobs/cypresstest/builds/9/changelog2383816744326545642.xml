@@ -1,0 +1,22 @@
+commit 960b16c41335db4f5547b4d33041e8b90c533f2a
+tree baf46257c76be3fd799c7fb0d0f6f773b5f8b15b
+parent c1e60790fc9ec8ff0377eea91cd5c0c21ce64483
+author Andreas Berrou <andreas.berrou@hec.de> 2019-08-23 15:26:33 +0200
+committer Andreas Berrou <andreas.berrou@hec.de> 2019-08-23 15:26:33 +0200
+
+    yesyes
+
+
+
+:100644 100644 5a0cd23076d72c30fd80b6d9deb860767fed0efa 01443476c1764e296d8a0dbcbd5faf8f0e9455a0 M	cypress_kitchensink/.idea/workspace.xml
+commit c1e60790fc9ec8ff0377eea91cd5c0c21ce64483
+tree 6c010aee7b31a550edf87f11fe7cd284f2c40116
+parent 9b21fc5188bc15a1962a93512156c860eb0e2ba1
+author Andreas Berrou <andreas.berrou@hec.de> 2019-08-23 14:49:31 +0200
+committer Andreas Berrou <andreas.berrou@hec.de> 2019-08-23 14:49:31 +0200
+
+    test
+
+
+
+:100644 100644 ac3924bfec81da93c40818154d530e8c5cffc0db ac3924bfec81da93c40818154d530e8c5cffc0db R100	cypress_kitchensink/cypress/integration/examples/navigation.spec.js	cypress_kitchensink/cypress/integration/navigation.spec.js
