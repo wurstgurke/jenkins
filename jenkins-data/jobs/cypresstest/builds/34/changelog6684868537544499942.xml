@@ -1,0 +1,12 @@
+commit e4c532693abfac807d7a2160a01668359620eeec
+tree fe2ce00902889352dce84921b3d00c810ba07081
+parent 17396346699bf9021101fa9848b2e3f2fc8dd8b0
+author Andreas Berrou <BEA@neusta.de> 2019-08-26 10:03:02 +0200
+committer Andreas Berrou <BEA@neusta.de> 2019-08-26 10:03:02 +0200
+
+    added spt-test
+
+
+
+:100644 100644 ff0c614f3d8df42ffbc23ea73a6262d5ed89440b 45caf873a22cdb759453050a4754f3d5e92e5318 M	.idea/workspace.xml
+:100644 100644 9d50b08b653b771903daea5b5000d123284701ba b3c9e257d1fbc29972c300f701fed856d97af327 M	cypress/integration/login.spec.js
